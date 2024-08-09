@@ -1,21 +1,56 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pertanyaan</title>
-    <script>
-        function tanyakan() {
-            let jawaban = prompt("Ada berapa bulan dalam setahun?");
-            if (jawaban.toLowerCase() === "12") {
-                alert("Kok malah bener wkwk");
-            } else {
-                alert("12...But");
-            }
-            alert("Hai Bell\nLagi sibuk apa?\nDah lama nggak ngganggu wkwkw\nKayake lagi sibuk banget ya :D\nJarang post \nLagi semhas apa sempro kan?\nSemangat ya ;D");
-        }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semangat Ujian!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 600px;
+      width: 90%;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #666;
+      line-height: 1.6;
+    }
+    .button {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
-<body onload="tanyakan()">
+<body>
+  <div class="container">
+    <h1>Semangat Ujian!</h1>
+    <p>Anda pasti bisa melewati ujian ini dengan baik. Jangan lupa untuk tetap tenang, fokus, dan percaya pada kemampuan Anda. Selamat berjuang, semoga sukses!</p>
+    <a href="#" class="button">Semangat!</a>
+  </div>
 </body>
 </html>
